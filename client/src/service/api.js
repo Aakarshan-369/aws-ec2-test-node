@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'http://54.87.252.80:8000';
+const URL = 'http://34.232.77.184:8000';
 
 
 export const getNews = async (page, size = 5) => {
