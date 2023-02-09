@@ -6,7 +6,17 @@ import dotenv from 'dotenv'
 //components
 import Connection from './connection/db.js';
 import Route from './routes/Route.js';
-import DefaultData from './default.js'
+import https from 'https' ;
+import DefaultData from './default.js';
+import fs from 'fs'; 
+
+const key = fs.readFileSync('/home/ec2-user/aws-ec2-test-node/server/private.key') ; 
+const cert = fs.readFileSync('/home/ec2-user/aws-ec2-test-node/server/certificate.crt');
+
+const cred = {
+    key: key, 
+    cert: cert
+}
 
 const app = express();
 dotenv.config();
@@ -22,6 +32,9 @@ const PORT = 8000;
 
 Connection(username, password);
 
-app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));
 
+const httpsServer = https.createServer(cred, app);
+httpsServer.listen(8443, () => console.log(`HTTPS server is running successfully on PORT 8443`));
+
+app.listen(PORT, () => console.log(`HTTP server is running successfully on PORT ${PORT}`));
 //DefaultData();
