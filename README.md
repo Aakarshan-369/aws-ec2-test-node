@@ -8,3 +8,23 @@ EC2instance to ensure maximum availability and scalability. The NGINX reverse pr
 implemented to easily handle potential server failures.
 - A low latency MongoDB NoSQL document-based database was chosen to store the news feed data, deployed on the
 Atlas cloud cluster and accessed via the Mongoose database client.
+
+
+# Run Locally 
+
+## Client
+- install `nodejs` along with `npm` 
+- clone repository using `git clone https://github.com/Aakarshan-369/aws-ec2-test-node/` 
+- cd into client by `cd client`
+- run `npm install` to install the dependencies 
+- run `npm start` to run the local development server :)
+
+## Backend
+
+- install `nodejs` along with `npm` 
+- clone repository using `git clone https://github.com/Aakarshan-369/aws-ec2-test-node/`
+- cd into server by `cd server`
+- run `npm install` to install the dependencies 
+- run `npm start` to run the local development server :) 
+- Mongodb atlas would require additional IP configuration for security reasons.
+
