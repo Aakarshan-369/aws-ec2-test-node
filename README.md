@@ -1,6 +1,6 @@
 # Inshorts News Feed 
 
-## Live at https://inshorts-frontend.onrender.com/ 
+## Live at https://inshorts-frontend.onrender.com/ [https certificate renewal required]
 ### stack | ReactJS, Material, NodeJS, ExpressJS, MongoDB, Render, AWS
 
 ![The Feed](https://github.com/Aakarshan-369/aws-ec2-test-node/blob/main/ezgif-1-fe5ed4c247.gif)
