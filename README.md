@@ -3,9 +3,9 @@
 ## Live at https://inshorts-frontend.onrender.com/ [https certificate renewal required]
 ### stack | ReactJS, Material, NodeJS, ExpressJS, MongoDB, Render, AWS
 
-![The Feed](https://github.com/Aakarshan-369/aws-ec2-test-node/blob/main/ezgif-1-fe5ed4c247.gif)
+![ezgif-1-fe5ed4c247](https://github.com/Aakarshan-369/aws-ec2-test-node/assets/53165427/b12003b6-967a-46b0-b17f-938631f5eacd)
 
-![Request-Response Workflow](https://github.com/Aakarshan-369/aws-ec2-test-node/blob/main/inshorts%20architecture.png)
+![inshorts architecture](https://github.com/Aakarshan-369/aws-ec2-test-node/assets/53165427/5bbff044-39c9-46c1-ab2f-301cc19a4271)
 
 - A Infinite Scroll News Feed application, developed utilizing the ReactJS framework and deployed on a
 high-performance Render CDN for optimized front-end functionality.
